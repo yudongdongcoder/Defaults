@@ -1,0 +1,22 @@
+Pod::Spec.new do |s|
+  s.name             = 'VPNLog'
+  s.version          = '9.0.2'
+  s.summary          = 'Defaults'
+
+  s.description      = <<-DESC
+Defaults
+                       DESC
+
+
+  s.homepage         = ''
+  s.author           = { 'yudongdong' => 'yudongdongcoder@gmail.com' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.source           = { :git => '', :tag => s.version.to_s }
+
+  s.static_framework = true
+
+  s.ios.deployment_target = '14.0'
+  s.osx.deployment_target = "11"
+
+  s.source_files = 'Sources/**/*'
+end
