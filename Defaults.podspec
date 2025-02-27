@@ -4,11 +4,11 @@ Pod::Spec.new do |s|
   s.summary          = 'Defaults'
 
   s.description      = <<-DESC
-Defaults
+Defaults DESC
                        DESC
 
 
-  s.homepage         = ''
+  s.homepage         = 'https://github.com/yudongdongcoder/Defaults.git'
   s.author           = { 'yudongdong' => 'yudongdongcoder@gmail.com' }
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.source           = { :git => '', :tag => s.version.to_s }
