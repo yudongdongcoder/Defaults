@@ -18,5 +18,5 @@ Defaults DESC
   s.ios.deployment_target = '14.0'
   s.osx.deployment_target = "11.0"
 
-  s.source_files = 'Sources/**/*'
+  s.source_files = 'Sources/Defaults/**/*'
 end
