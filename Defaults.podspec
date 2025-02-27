@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'VPNLog'
+  s.name             = 'Defaults'
   s.version          = '9.0.2'
   s.summary          = 'Defaults'
 
@@ -16,7 +16,7 @@ Defaults
   s.static_framework = true
 
   s.ios.deployment_target = '14.0'
-  s.osx.deployment_target = "11"
+  s.osx.deployment_target = "11.0"
 
   s.source_files = 'Sources/**/*'
 end
